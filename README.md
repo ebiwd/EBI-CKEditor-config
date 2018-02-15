@@ -10,3 +10,19 @@ config.scayt_disableOptionsStorage = 'lang';
 config.scayt_sLang = 'en_GB';
 config.stylesCombo_stylesSet = 'ebi_styles:https://ebiwd.github.io/EBI-CKEditor-config/styles.js';
 ```
+
+A recommended layout:
+
+```js
+[
+    ['Styles','-','Bold','Italic','Strike'],
+    ['PasteFromWord','-','RemoveFormat'],
+    ['NumberedList','BulletedList','-','Outdent','Indent'],
+    '/',
+    ['Link','Unlink','linkit'],
+    ['Image','Enhanced Image','IMCE'],
+    ['Table','-','ShowBlocks','-','CreateDiv','-','Templates'],
+    ['Source'],
+    ['Blockquote','-','HorizontalRule','-','Anchor','-','CodeSnippet','-','SpellChecker','Scayt']
+]
+```
