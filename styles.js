@@ -1,3 +1,10 @@
+/****
+Use this in your ckeditor config like:
+- Drupal:
+  config.stylesCombo_stylesSet = 'ebi_styles:https://ebiwd.github.io/EBI-CKEditor-config/styles.js';
+- Other:
+  config.stylesSet = 'ebi_styles:https://ebiwd.github.io/EBI-CKEditor-config/styles.js';
+**/
 CKEDITOR.stylesSet.add("ebi_styles", [
   { name: 'Sub head' , element: 'h3', attributes: { 'class': 'my_style' } },
   { name: 'Lead paragraph' , element: 'p', attributes: { 'class': 'lead' } },
