@@ -9,6 +9,9 @@ config.contentsCss = ['https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v
 config.scayt_disableOptionsStorage = 'lang';
 config.scayt_sLang = 'en_GB';
 config.stylesCombo_stylesSet = 'ebi_styles:https://ebiwd.github.io/EBI-CKEditor-config/styles.js';
+config.templates = 'ebi_templates';
+config.templates_files = [ 'https://ebiwd.github.io/EBI-CKEditor-config/templates/ebi_templates.js' ];
+config.templates_replaceContent = false;
 ```
 
 A recommended layout:
