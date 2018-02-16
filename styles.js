@@ -12,6 +12,7 @@ CKEDITOR.stylesSet.add("ebi_styles", [
   { name: 'Blockquote' , element: 'blockquote', attributes: { 'class': 'blockquote' } },
   { name: 'Quote' , element: 'blockquote', attributes: { 'class': 'quote' } },
   { name: 'Small text' , element: 'span', attributes: { 'class': 'small' } },
+  { name: 'Plain link', element: 'a', attributes: { 'class': 'plain' } },
   { name: 'No underline', element: 'a', attributes: { 'class': 'no-underline' } },
   { name: 'Readmore', element: 'a', attributes: { 'class': 'readmore' } },
   { name: 'External', element: 'a', attributes: { 'class': 'external' } },
