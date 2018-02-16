@@ -9,6 +9,8 @@ CKEDITOR.stylesSet.add("ebi_styles", [
   { name: 'H3: Section head' , element: 'h3', attributes: { 'class': 'my_style' } },
   { name: 'H4: Sub head' , element: 'h4', attributes: { 'class': 'my_style' } },
   { name: 'Lead paragraph' , element: 'p', attributes: { 'class': 'lead' } },
+  { name: 'Blockquote' , element: 'blockquote', attributes: { 'class': 'blockquote' } },
+  { name: 'Quote' , element: 'blockquote', attributes: { 'class': 'quote' } },
   { name: 'Small text' , element: 'span', attributes: { 'class': 'small' } },
   { name: 'No underline', element: 'a', attributes: { 'class': 'no-underline' } },
   { name: 'Readmore', element: 'a', attributes: { 'class': 'readmore' } },
