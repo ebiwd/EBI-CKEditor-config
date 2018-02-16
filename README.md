@@ -14,7 +14,8 @@ config.templates_files = [ 'https://ebiwd.github.io/EBI-CKEditor-config/template
 config.templates_replaceContent = false;
 ```
 
-A recommended layout:
+## Layout
+A recommended layout good for general content editing:
 
 ```js
 [
