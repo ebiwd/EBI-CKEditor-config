@@ -1,6 +1,12 @@
 /****
 Some useful CSS to improve the look and UX of your toolbars
 **/
+iframe.cke_wysiwyg_frame {
+    padding: .5rem;
+}
+.cke_dialog_ui_vbox.cke_dialog_page_contents .cke_dialog_ui_checkbox {
+    display: none;
+}
 .cke_combopanel {
     width: 300px;
     min-height: 400px;
