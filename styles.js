@@ -6,6 +6,7 @@ Use this in your ckeditor config like:
   config.stylesSet = 'ebi_styles:https://ebiwd.github.io/EBI-CKEditor-config/styles.js';
 **/
 CKEDITOR.stylesSet.add("ebi_styles", [
+  { name: 'Normal paragraph' , element: 'p', attributes: { 'class': 'normal' } },
   { name: 'H3: Section head' , element: 'h3', attributes: { 'class': 'my_style' } },
   { name: 'H4: Sub head' , element: 'h4', attributes: { 'class': 'my_style' } },
   { name: 'Lead paragraph' , element: 'p', attributes: { 'class': 'lead' } },
