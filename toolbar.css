@@ -2,7 +2,8 @@
 Some useful CSS to improve the look and UX of your toolbars
 **/
 iframe.cke_wysiwyg_frame {
-    padding: .5rem;
+  margin: 1%;
+  width: 99% !important;
 }
 .cke_dialog_ui_vbox.cke_dialog_page_contents .cke_dialog_ui_checkbox {
     display: none;
