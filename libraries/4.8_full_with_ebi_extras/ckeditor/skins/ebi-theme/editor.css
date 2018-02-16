@@ -815,7 +815,8 @@ a.cke_combo_button {
     display: inline-block;
     float: left;
     margin: 0;
-    padding: 1px
+    padding: 1px;
+    border-bottom: 1px solid #bcbcbc;
 }
 
 .cke_rtl a.cke_combo_button {
