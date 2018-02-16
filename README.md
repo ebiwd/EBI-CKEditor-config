@@ -18,14 +18,14 @@ A recommended layout:
 
 ```js
 [
-    ['Styles','-','Bold','Italic','Strike'],
-    ['PasteFromWord','-','RemoveFormat'],
-    ['NumberedList','BulletedList','-','Outdent','Indent'],
-    '/',
-    ['Link','Unlink','linkit'],
-    ['Image','Enhanced Image','IMCE'],
-    ['Table','-','ShowBlocks','-','CreateDiv','-','Templates'],
-    ['Source'],
-    ['Blockquote','-','HorizontalRule','-','Anchor','-','CodeSnippet','-','SpellChecker','Scayt']
+  ['Styles','-','Bold','Italic','Strike','Blockquote'],
+  ['NumberedList','BulletedList','-','Outdent','Indent'],
+  ['PasteFromWord','-','RemoveFormat'],
+  '/',
+  ['linkit','Unlink','Anchor'],
+  ['Image','Enhanced Image'],
+  ['Table','CodeSnippet','-','CreateDiv'],
+  ['Templates'],
+  ['Source','ShowBlocks']
 ]
 ```
