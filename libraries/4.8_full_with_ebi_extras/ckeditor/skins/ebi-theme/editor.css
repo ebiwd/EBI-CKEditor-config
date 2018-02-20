@@ -1945,22 +1945,6 @@ legend.cke_voice_label {
     background-size: 16px !important;
 }
 
-/* ebi tweaks */
-iframe.cke_wysiwyg_frame {
-    margin: 1%;
-    width: 99% !important;
-}
-
-.cke_dialog_ui_vbox.cke_dialog_page_contents .cke_dialog_ui_checkbox {
-    display: none;
-}
-
-.cke_combopanel {
-    width: 300px;
-    min-height: 400px;
-}
-
-
 /*
  Some global things for the EBI theme
  */
@@ -1986,4 +1970,18 @@ iframe.cke_wysiwyg_frame {
 .node-form th.field-label {
     background: #fff;
     border: none;
+}
+
+iframe.cke_wysiwyg_frame {
+    margin: 1%;
+    width: 99% !important;
+}
+
+.cke_dialog_ui_vbox.cke_dialog_page_contents .cke_dialog_ui_checkbox {
+    display: none;
+}
+
+.cke_combopanel {
+    width: 300px;
+    min-height: 400px;
 }

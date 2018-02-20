@@ -30,3 +30,17 @@ For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
     background: #fff;
     border: none;
 }
+
+iframe.cke_wysiwyg_frame {
+    margin: 1%;
+    width: 99% !important;
+}
+
+.cke_dialog_ui_vbox.cke_dialog_page_contents .cke_dialog_ui_checkbox {
+    display: none;
+}
+
+.cke_combopanel {
+    width: 300px;
+    min-height: 400px;
+}
