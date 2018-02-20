@@ -37,7 +37,7 @@ iframe.cke_wysiwyg_frame {
 }
 
 .cke_dialog_ui_vbox.cke_dialog_page_contents .cke_dialog_ui_checkbox {
-    display: none;
+    /* display: none; */
 }
 
 .cke_combopanel {
