@@ -1960,27 +1960,4 @@ iframe.cke_wysiwyg_frame {
     min-height: 400px;
 }
 
-.cke_toolbar_last {
-    float: right;
-}
 
-/* Show labels for some elements */
-.cke_button_label.cke_button__pastefromword_label, .cke_button_label.cke_button__removeformat_label, .cke_button_label.cke_button__showblocks_label, .cke_button_label.cke_button__horizontalrule_label, .cke_button_label.cke_button__creatediv_label, .cke_button_label.cke_button__templates_label, .cke_button_label.cke_button__codesnippet_label, .cke_button_label.cke_button__anchor_label, .cke_button_label.cke_button__table_label, .cke_button_label.cke_button__image_label, .cke_button_label.cke_button__linkit_label {
-    display: inline !important;
-}
-
-/* .cke_button_label:last-child { display: none !important; }    */
-.cke_button_label.cke_button__linkit_label {
-    max-width: 32px;
-    overflow: hidden;
-}
-
-.cke_button_label.cke_button__creatediv_label {
-    max-width: 78px;
-    overflow: hidden;
-}
-
-.node-form th.field-label {
-    background: #fff;
-    border: none;
-}
