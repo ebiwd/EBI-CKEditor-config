@@ -8,3 +8,17 @@ CKEDITOR.editorConfig = function( config ) {
 	// config.language = 'fr';
 	// config.uiColor = '#AADC6E';
 };
+
+CKEDITOR.replace( 'editor1', {
+  qtRows: 10, // Count of rows
+  qtColumns: 8, // Count of columns
+  qtBorder: '1', // Border of inserted table
+  qtWidth: '90%', // Width of inserted table
+  qtStyle: { 'border-collapse' : 'collapse' },
+  qtClass: 'inserted-table', // Class of table
+  qtCellPadding: '0', // Cell padding table
+  qtCellSpacing: '0', // Cell spacing table
+  qtPreviewBorder: '4px double black', // preview table border
+  qtPreviewSize: '5px', // Preview table cell size
+  qtPreviewBackground: '#c8def4' // preview table background (hover)
+});
