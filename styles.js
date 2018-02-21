@@ -22,11 +22,7 @@ CKEDITOR.stylesSet.add("ebi_styles", [
   { name: 'Button: Readmore', element: 'a', attributes: { 'class': 'button readmore' } },
   { name: 'Button: External', element: 'a', attributes: { 'class': 'button external' } },
   { name: 'Button: Readmore, secondary', element: 'a', attributes: { 'class': 'button secondary readmore' } },
-  { name: 'Button: External, secondary', element: 'a', attributes: { 'class': 'button secondary external' } }
-]);
-
-// For the make a div styles
-CKEDITOR.stylesSet.add("ebi_styles_divs", [
+  { name: 'Button: External, secondary', element: 'a', attributes: { 'class': 'button secondary external' } },
   { name: 'Callout', element: 'div',  attributes: { 'class': 'callout' } },
   { name: 'Row', element: 'div',  attributes: { 'class': 'row' } },
   { name: 'Medium 6', element: 'div',  attributes: { 'class': 'columns medium-6' } }
