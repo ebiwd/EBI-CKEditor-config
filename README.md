@@ -22,6 +22,7 @@ config.codeSnippet_languages = ({
     javascript: 'JavaScript',
     php: 'PHP'
 });
+config.indentClasses = ['margin-left-medium','margin-left-large','margin-left-xlarge'];
 ```
 
 ## Layout
