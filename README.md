@@ -23,6 +23,7 @@ config.codeSnippet_languages = ({
     php: 'PHP'
 });
 config.indentClasses = ['margin-left-medium','margin-left-large','margin-left-xlarge'];
+config.pasteFromWordPromptCleanup = true;
 ```
 
 ## Layout
