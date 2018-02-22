@@ -24,7 +24,7 @@ config.codeSnippet_languages = ({
 });
 config.indentClasses = ['margin-left-medium','margin-left-large','margin-left-xlarge'];
 config.pasteFromWordPromptCleanup = true;
-config.disableNativeTableHandles = false;
+config.disableNativeTableHandles = true;
 config.image2_alignClasses = [ 'float-left', 'text-center', 'float-right' ];
 config.linkJavaScriptLinksAllowed = true;
 ```
