@@ -16,7 +16,7 @@ For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 
 /* .cke_button_label:last-child { display: none !important; }    */
 .cke_button_label.cke_button__linkit_label {
-    max-width: 32px;
+    max-width: 22px;
     overflow: hidden;
 }
 
