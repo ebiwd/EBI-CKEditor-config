@@ -3,7 +3,7 @@ Standardised configurations for the CKEditor for use at EMBL-EBI websites.
 
 ## Theme path
 Contained here is a version of CKEditor with our suggested plugins; reference with:
-`https://ebiwd.github.io/EBI-CKEditor-config/libraries/4.8_full_with_ebi_extras/ckeditor`
+`https://ebiwd.github.io/EBI-CKEditor-config/libraries/4.9_full_with_ebi_extras/ckeditor`
 
 ## Standard options
 Here are some standard config options to set the spell checker, use the EBI styles, and point to assets located here:
