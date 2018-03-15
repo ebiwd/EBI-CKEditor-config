@@ -3,10 +3,16 @@ CKEDITOR.addTemplates("ebi_templates",
   imagesPath:"https://ebiwd.github.io/EBI-CKEditor-config/templates/images/",
   templates:[
     {
-      title:"EBI Image and Title",
+      title:"EBI Image and caption",
       image:"template1.gif",
-      description:"EBI One main image with a title and text that surround the image.",
-      html:'\x3ch3\x3e\x3cimg src\x3d" " alt\x3d"" style\x3d"margin-right: 10px" height\x3d"100" width\x3d"100" align\x3d"left" /\x3eType the title here\x3c/h3\x3e\x3cp\x3eType the text here\x3c/p\x3e'
+      description:"EBI One image right aligned with a caption.",
+      html:`
+          <div class="columns float-right medium-5">
+            <figure class="image">
+              <img alt="Why are PDX models important in cancer research? How can standards make them even more useful? Why should users get involved? Terry Meehan of EMBL-EBI explains." src="https://www.ebi.ac.uk/sites/ebi.ac.uk/files/groups/external_relations/images/wide-imagery/Bitcoin_challenge_credit_WUYTS_Sander_v_EMBL-EBI_780x400.jpg" width="" class="">
+              <figcaption class="">A responsive <code>figure &gt; figcaption</code> wrapped in a <code>div.columns.float-right.medium-5</code></figcaption>
+            </figure>
+          </div>`
     },
     {
       title:"Strange Template",
