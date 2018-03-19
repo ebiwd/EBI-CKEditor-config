@@ -45,3 +45,11 @@ A recommended layout good for general content editing:
   ['Source','ShowBlocks']
 ]
 ```
+
+## Try out the standard configuration
+
+[Open demo.html](demo.html)
+
+### Develop the sample page locally
+
+I suggest using Browsersync: `browser-sync start --server --index demo.html`
