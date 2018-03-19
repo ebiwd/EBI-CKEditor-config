@@ -48,7 +48,7 @@ A recommended layout good for general content editing:
 
 ## Try out the standard configuration
 
-[Open demo.html](demo.html)
+[Open the demo.html](https://ebiwd.github.io/EBI-CKEditor-config/demo.html)
 
 ### Develop the sample page locally
 
