@@ -17,9 +17,9 @@ CKEDITOR.addTemplates("ebi_templates",
       title:"Blue summary box",
       image:"template1.gif",
       description:"A centered blue box for summaries.",
-      html:`<div class="callout columns medium-10 medium-push-1 industry-background white-color">
+      html:`<div class="row"><div class="callout columns medium-10 medium-push-1 industry-background white-color">
               <p>Summary goes here</p>
-           </div>`
+           </div></div>`
     },
     {
       title:"Grey info box",
