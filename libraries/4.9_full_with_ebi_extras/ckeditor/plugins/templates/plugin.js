@@ -80,9 +80,9 @@
  * @cfg {String[]}
  * @member CKEDITOR.config
  */
-CKEDITOR.config.templates_files = [
-	CKEDITOR.getUrl( 'plugins/templates/templates/default.js' )
-];
+// CKEDITOR.config.templates_files = [
+// 	CKEDITOR.getUrl( 'plugins/templates/templates/default.js' )
+// ];
 
 /**
  * Whether the "Replace actual contents" checkbox is checked by default in the
@@ -93,4 +93,4 @@ CKEDITOR.config.templates_files = [
  * @cfg {Boolean}
  * @member CKEDITOR.config
  */
-CKEDITOR.config.templates_replaceContent = true;
+// CKEDITOR.config.templates_replaceContent = true;
