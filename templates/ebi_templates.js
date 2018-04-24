@@ -42,7 +42,7 @@ CKEDITOR.addTemplates("ebi_templates",
       image:"template1.gif",
       description:"A grey infox box.",
       html:`<blockquote class="lead quote callout industry-background white-color padding-left-xlarge">
-              I'm being quoted here and want to be noticed. 
+              I'm being quoted here and want to be noticed.
               <cite class="text-right">Hi, I'm a <a href="#">citation</a>!</cite>
             </blockquote>`
     },
@@ -86,9 +86,181 @@ CKEDITOR.addTemplates("ebi_templates",
 
             <p>&nbsp;</p>`
     },
-
+    {
+      title:"Programme",
+      image:"template1.gif",
+      description:"Programme table for 1 day events or meetings.",
+      html:`<table class="hover">
+              <thead>
+              <tr>
+                <th colspan="3"><h4>Monday 3 September 2018</h4></th>
+              </tr>
+              </thead>
+              <tbody>
+            <tr>
+              <td>08:30</td>
+              <td>Arrival, registration</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>09:00-10:30</td>
+              <td>Welcome and introductions</td>
+              <td>Host Name</td>
+            </tr>
+            <tr>
+              <td>10:30-11:00</td>
+              <td colspan="2">Break</td>
+            </tr>
+            <tr>
+              <td>11:00-12:30</td>
+              <td>Title of Talk</td>
+              <td>Speaker Name</td>
+            </tr>
+            <tr>
+              <td>12:30-13:30</td>
+              <td colspan="2">Lunch</td>
+            </tr>
+            <tr>
+              <td>13:30-15:00</td>
+              <td>Title of Talk</td>
+              <td>Speaker Name / Group Name</td>
+            </tr>
+            <tr>
+              <td>15:00-15:30</td>
+              <td>Break</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>15:30-17:00</td>
+              <td>Title of Talk</td>
+              <td>Speaker Name / Group Name</td>
+            </tr>
+            <tr>
+              <td>17:00</td>
+              <td>End of day</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>19:30</td>
+              <td>Dinner</td>
+              <td>&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>`
+    },
+    {
+      title:"Long programme",
+      image:"template1.gif",
+      description:"Programme table for 2 or more days.",
+      html:`<table class="hover">
+              <thead>
+              <tr>
+                <th colspan="3"><h4>Day 1 – Monday 3 September 2018</h4></th>
+              </tr>
+              </thead>
+              <tbody>
+            <tr>
+              <td>08:30</td>
+              <td>Arrival, registration</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>09:00-10:30</td>
+              <td>Welcome and introductions</td>
+              <td>Host Name</td>
+            </tr>
+            <tr>
+              <td>10:30-11:00</td>
+              <td colspan="2">Break</td>
+            </tr>
+            <tr>
+              <td>11:00-12:30</td>
+              <td>Title of Talk</td>
+              <td>Speaker Name</td>
+            </tr>
+            <tr>
+              <td>12:30-13:30</td>
+              <td colspan="2">Lunch</td>
+            </tr>
+            <tr>
+              <td>13:30-15:00</td>
+              <td>Title of Talk</td>
+              <td>Speaker Name / Group Name</td>
+            </tr>
+            <tr>
+              <td>15:00-15:30</td>
+              <td>Break</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>15:30-17:00</td>
+              <td>Title of Talk</td>
+              <td>Speaker Name / Group Name</td>
+            </tr>
+            <tr>
+              <td>17:00</td>
+              <td>End of day</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>19:30</td>
+              <td>Dinner</td>
+              <td>&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="hover">
+          <thead>
+            <tr>
+              <th colspan="3"><h4>Day 2 – Monday 4 September 2018</h4></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>08:45</td>
+              <td>Arrival</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>09:00-10:30</td>
+              <td>Title of Talk</td>
+              <td>Speaker Name</td>
+            </tr>
+            <tr>
+              <td>10:30-11:00</td>
+              <td colspan="2">Break</td>
+            </tr>
+            <tr>
+              <td>11:00-12:30</td>
+              <td>Title of Talk</td>
+              <td>Speaker Name</td>
+            </tr>
+            <tr>
+              <td>12:30-13:30</td>
+              <td colspan="2">Lunch</td>
+            </tr>
+            <tr>
+              <td>13:30-15:00</td>
+              <td>Title of Talk</td>
+              <td>Speaker Name / Group Name</td>
+            </tr>
+            <tr>
+              <td>15:00-15:30</td>
+              <td>Break</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>15:30-17:00</td>
+              <td>Title of Talk</td>
+              <td>Speaker Name / Group Name</td>
+            </tr>
+            <tr>
+              <td>17:00</td>
+              <td>End of day</td>
+              <td>&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>`
+    }
   ]
 });
-
-
-
