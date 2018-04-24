@@ -41,7 +41,7 @@
                 NotOlderThen: 1440,
                 SaveKey: _saveKeyPrefix + _saveKeyDelimiter + _saveKeyUrl + _saveKeyDelimiter + document.getElementById(editor.name).getAttribute(_saveKeyAttribute),
                 diffType: "sideBySide",
-                autoLoad: true
+                autoLoad: false
             };
 
             // Extend CKEDITOR config and lang  - config also available at loadPlugin()
@@ -245,7 +245,12 @@
 
                 if (confirm(confirmMessage)) {
                     // Open DIFF Dialog
-                    editorInstance.openDialog('autosaveDialog');
+                    // editorInstance.openDialog('autosaveDialog');
+
+                    // Hack to just load saved content
+                    var jsonSavedContent = LoadData(autoSaveKey);
+                    editorInstance.setData(jsonSavedContent.data);
+
                 } else {
                     RemoveStorage(autoSaveKey, editorInstance);
                 }
