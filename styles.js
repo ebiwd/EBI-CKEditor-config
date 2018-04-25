@@ -31,12 +31,9 @@ CKEDITOR.stylesSet.add("ebi_styles", [
 // make all h2s into h3s -- as h2 tags are reserved for the page title
 CKEDITOR.on('instanceReady', function (ev) {
   ev.editor.on('paste', function (ev) {
-      // ev.data.html = ev.data.html.replace(/<img( [^>]*)?>/gi, '');
       var pasted = ev.data.dataValue;
-      console.log(pasted)
       pasted = pasted.replace(/<h2/g, "<h3");
       pasted = pasted.replace(/<\/h2>/g,"<\/h3>");
-
       ev.data.dataValue = pasted;
   });
 });
