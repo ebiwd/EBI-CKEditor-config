@@ -28,7 +28,7 @@ CKEDITOR.stylesSet.add("ebi_styles", [
   { name: 'Medium 6', element: 'div',  attributes: { 'class': 'columns medium-6' } }
 ]);
 
-// make all h2s into h3s
+// make all h2s into h3s -- as h2 tags are reserved for the page title
 CKEDITOR.on('instanceReady', function (ev) {
   ev.editor.on('paste', function (ev) {
       // ev.data.html = ev.data.html.replace(/<img( [^>]*)?>/gi, '');
