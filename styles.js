@@ -27,3 +27,16 @@ CKEDITOR.stylesSet.add("ebi_styles", [
   { name: 'Row', element: 'div',  attributes: { 'class': 'row' } },
   { name: 'Medium 6', element: 'div',  attributes: { 'class': 'columns medium-6' } }
 ]);
+
+// make all h2s into h3s
+CKEDITOR.on('instanceReady', function (ev) {
+  ev.editor.on('paste', function (ev) {
+      // ev.data.html = ev.data.html.replace(/<img( [^>]*)?>/gi, '');
+      var pasted = ev.data.dataValue;
+      console.log(pasted)
+      pasted = pasted.replace(/<h2/g, "<h3");
+      pasted = pasted.replace(/<\/h2>/g,"<\/h3>");
+
+      ev.data.dataValue = pasted;
+  });
+});
