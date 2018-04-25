@@ -12,6 +12,8 @@ CKEDITOR.stylesSet.add("ebi_styles", [
   { name: 'Lead paragraph' , element: 'p', attributes: { 'class': 'lead' } },
   { name: 'Normal blockquote' , element: 'blockquote', attributes: { 'class': 'blockquote' } },
   { name: 'Quote' , element: 'blockquote', attributes: { 'class': 'quote' } },
+  { name: 'Colour: white' , element: 'span', attributes: { 'class': 'white-color' } },
+  { name: 'Colour: grey' , element: 'span', attributes: { 'class': 'secondary-color' } },
   { name: 'Small text' , element: 'span', attributes: { 'class': 'small' } },
   { name: 'Plain link', element: 'a', attributes: { 'class': 'plain' } },
   { name: 'No underline', element: 'a', attributes: { 'class': 'no-underline' } },
@@ -27,6 +29,7 @@ CKEDITOR.stylesSet.add("ebi_styles", [
   { name: 'Row', element: 'div',  attributes: { 'class': 'row' } },
   { name: 'Medium 6', element: 'div',  attributes: { 'class': 'columns medium-6' } }
 ]);
+
 
 // make all h2s into h3s -- as h2 tags are reserved for the page title
 CKEDITOR.on('instanceReady', function (ev) {
