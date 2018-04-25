@@ -27,7 +27,11 @@ CKEDITOR.stylesSet.add("ebi_styles", [
   { name: 'Button: External, secondary', element: 'a', attributes: { 'class': 'button secondary external' } },
   { name: 'Callout', element: 'div',  attributes: { 'class': 'callout' } },
   { name: 'Row', element: 'div',  attributes: { 'class': 'row' } },
-  { name: 'Medium 6', element: 'div',  attributes: { 'class': 'columns medium-6' } }
+  { name: 'Medium 6', element: 'div',  attributes: { 'class': 'columns medium-6' } },
+  { name: 'Table: normal', element: 'table',  attributes: { 'class': 'normal' } },
+  { name: 'Table: data', element: 'table',  attributes: { 'class': 'data-table small no-stripe' } },
+  { name: 'Table: no stripe', element: 'table',  attributes: { 'class': 'no-stripe' } },
+  { name: 'Table row: white text', element: 'td',  attributes: { 'class': 'white-color' } }
 ]);
 
 
