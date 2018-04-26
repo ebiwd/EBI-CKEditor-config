@@ -32,7 +32,7 @@ CKEDITOR.stylesSet.add("ebi_styles", [
   { name: 'Table: data', element: 'table',  attributes: { 'class': 'data-table small no-stripe' } },
   { name: 'Table: no stripe', element: 'table',  attributes: { 'class': 'no-stripe' } },
   { name: 'Table row: white text', element: 'td',  attributes: { 'class': 'white-color' } },
-  { name: 'Table row: section head', element: 'td',  attributes: { 'class': 'secondary-background white-color' } }
+  { name: 'Table row: section head', element: 'th',  attributes: { 'class': 'secondary-background white-color' } }
 ]);
 
 
