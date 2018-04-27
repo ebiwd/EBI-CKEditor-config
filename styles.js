@@ -37,12 +37,14 @@ CKEDITOR.stylesSet.add("ebi_styles", [
 ]);
 
 
-// make all h2s into h3s -- as h2 tags are reserved for the page title
+// make all h1s h2s into h3s -- as these are reserved for the site and page title
 CKEDITOR.on('instanceReady', function (ev) {
   ev.editor.on('paste', function (ev) {
       var pasted = ev.data.dataValue;
       pasted = pasted.replace(/<h2/g, "<h3");
       pasted = pasted.replace(/<\/h2>/g,"<\/h3>");
+      pasted = pasted.replace(/<h1/g, "<h3");
+      pasted = pasted.replace(/<\/h1>/g,"<\/h3>");
       ev.data.dataValue = pasted;
   });
 });
