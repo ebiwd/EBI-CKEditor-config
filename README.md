@@ -10,7 +10,7 @@ Here are some standard config options to set the spell checker, use the EBI styl
 
 ```js
 config.skin = 'ebi-theme';
-config.extraPlugins = 'autosave,codesnippet,image2,balloonpanel,balloontoolbar,linkballoon,tableresize,openlink,quicktable,templates,pastefromword,liststyle';
+config.extraPlugins = 'autosave,codesnippet,image2,balloonpanel,tableresize,openlink,quicktable,templates,pastefromword,liststyle';
 config.contentsCss = ['https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/css/ebi-global.css', 'https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/css/ebi-global-drupal.css', 'https://ebi.emblstatic.net/web_guidelines/EBI-Icon-fonts/v1.2/fonts.css'];
 config.scayt_disableOptionsStorage = 'lang';
 config.scayt_sLang = 'en_GB';
