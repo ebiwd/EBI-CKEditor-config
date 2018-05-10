@@ -56,6 +56,6 @@ window.onbeforeunload = function(e) {
 };
 
 // drupal save and preview buttons
-jQuery('#edit-actions button, #edit-actions a').click(function() {
+jQuery('#edit-actions input, #edit-actions button, #edit-actions a').click(function() {
   window.onbeforeunload = null; // don't warn
 });
