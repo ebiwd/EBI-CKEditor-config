@@ -23,10 +23,20 @@ config.codeSnippet_languages = ({
     php: 'PHP'
 });
 config.indentClasses = ['margin-left-medium','margin-left-large','margin-left-xlarge'];
-config.pasteFromWordPromptCleanup = true;
+config.pasteFromWordPromptCleanup = false;
 config.disableNativeTableHandles = true;
 config.image2_alignClasses = [ 'float-left', 'text-center', 'float-right' ];
 config.linkJavaScriptLinksAllowed = true;
+config.allowedContent = ({
+  $1: {
+    elements: CKEDITOR.dtd,
+    attributes: true,
+    styles: true,
+    classes: true
+  }
+});
+config.extraAllowedContent = 'div[data-icon],i[data-icon]';
+config.disallowedContent = 'span{color}; *{margin*,font*,letter-spacing}; a{text-decoration,color}; sup; u';
 ```
 
 ## Layout

@@ -41,10 +41,21 @@ CKEDITOR.stylesSet.add("ebi_styles", [
 CKEDITOR.on('instanceReady', function (ev) {
   ev.editor.on('paste', function (ev) {
       var pasted = ev.data.dataValue;
-      pasted = pasted.replace(/<h2/g, "<h3");
-      pasted = pasted.replace(/<\/h2>/g,"<\/h3>");
       pasted = pasted.replace(/<h1/g, "<h3");
       pasted = pasted.replace(/<\/h1>/g,"<\/h3>");
+      pasted = pasted.replace(/<h2/g, "<h3");
+      pasted = pasted.replace(/<\/h2>/g,"<\/h3>");
       ev.data.dataValue = pasted;
   });
+});
+
+window.onbeforeunload = function(e) {
+  var dialogText = 'Are you sure you want to close?'; // nb: most browsers won't even show this text
+  e.returnValue = dialogText;
+  return dialogText;
+};
+
+// drupal save and preview buttons
+jQuery('#edit-actions button, #edit-actions a').click(function() {
+  window.onbeforeunload = null; // don't warn
 });
