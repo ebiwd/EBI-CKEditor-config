@@ -93,7 +93,7 @@ CKEDITOR.addTemplates("ebi_templates",
       html:`<table class="hover">
               <thead>
               <tr>
-                <th colspan="3"><h4>Monday 3 September 2018</h4></th>
+                <th colspan="3"><h5>Monday 3 September 2018</h5></th>
               </tr>
               </thead>
               <tbody>
@@ -155,7 +155,7 @@ CKEDITOR.addTemplates("ebi_templates",
       html:`<table class="hover">
               <thead>
               <tr>
-                <th colspan="3" class="secondary-background white-color"><h4>Day 1 – Monday 3 September 2018</h4></th>
+                <th colspan="3" class="secondary-background white-color"><h5>Day 1 – Monday 3 September 2018</h5></th>
               </tr>
               </thead>
               <tbody>
@@ -212,7 +212,7 @@ CKEDITOR.addTemplates("ebi_templates",
         <table class="hover">
           <thead>
             <tr>
-              <th colspan="3" class="secondary-background white-color"><h4>Day 2 – Monday 4 September 2018</h4></th>
+              <th colspan="3" class="secondary-background white-color"><h5>Day 2 – Monday 4 September 2018</h5></th>
             </tr>
           </thead>
           <tbody>
